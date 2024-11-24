@@ -1,7 +1,11 @@
 ## EXP 2: Descriptive Analytics
 
-### 1. Using Summary Statistics to Calculate Measures of Central Tendency and Dispersion, and Analyzing Data Distributions  
-**Tools:** Python (NumPy, Pandas)
+## Using Summary Statistics to Calculate Measures of Central Tendency and Dispersion, and Analyzing Data Distributions  
+
+## Tools:
+Python (NumPy, Pandas)
+
+## Program:
 
 ```python
 import numpy as np
@@ -40,7 +44,8 @@ print(f"Skewness: {data_skewness}")
 print(f"Kurtosis: {data_kurtosis}")
 ```
 
-### Output:
+## Output:
+
 **Summary Statistics:**  
 - **Mean:** 15.1875  
 - **Median:** 14.5  
@@ -51,30 +56,30 @@ print(f"Kurtosis: {data_kurtosis}")
 - **Skewness:** 0.9189293390832917  
 - **Kurtosis:** 0.06474648980808049  
 
----
+## Explanation:
 
-### Explanation:
-#### 2. Central Tendency:
+### Central Tendency:
 - **Mean:** Average of all values.  
 - **Median:** Middle value when data is sorted.  
 - **Mode:** Most frequently occurring value.  
 
-#### 3. Dispersion:
+### Dispersion:
 - **Standard Deviation:** Measure of the spread of data from the mean.  
 - **Variance:** Square of the standard deviation.  
 - **Range:** Difference between the maximum and minimum values.  
 
-#### 4. Distribution Analysis:
+### Distribution Analysis:
 - **Skewness:** Indicates asymmetry. Positive skewness implies a tail on the right.  
 - **Kurtosis:** Indicates whether data are heavy-tailed or light-tailed compared to a normal distribution.
 
 
-### B. Correlation and Covariance to Measure Relationships Between Variables and Visualize Correlations Using Heat Maps  
-**Tools:** Python/R  
+## B. Correlation and Covariance to Measure Relationships Between Variables and Visualize Correlations Using Heat Maps  
 
----
+## Tools:
+Python/R  
 
-### Code:
+## Program:
+
 ```python
 import numpy as np
 import pandas as pd
@@ -112,10 +117,11 @@ plt.title("Correlation Heatmap")
 plt.show()
 ```
 
-### OUTPUT:
+## OUTPUT:
 
 ### 1. Covariance Matrix:
 The covariance matrix shows the extent to which variables vary together.
+
 
 |            | Variable1 | Variable2 | Variable3 | Variable4 |
 |------------|-----------|-----------|-----------|-----------|
@@ -128,6 +134,7 @@ The covariance matrix shows the extent to which variables vary together.
 ### 2. Correlation Matrix:
 The correlation matrix displays the strength of relationships between variables. Correlation values range from -1 to +1.
 
+
 |            | Variable1 | Variable2 | Variable3 | Variable4 |
 |------------|-----------|-----------|-----------|-----------|
 | **Variable1** | 1.00      | 1.00      | 1.00      | 1.00      |
@@ -136,12 +143,12 @@ The correlation matrix displays the strength of relationships between variables.
 | **Variable4** | 1.00      | 1.00      | 1.00      | 1.00      |
 
 
-#### 3. Correlation Heatmap:
+### 3. Correlation Heatmap:
 A heatmap will be generated using Seaborn, visually representing the correlation matrix with a color gradient. Each cell's value will also be displayed on the heatmap.
 
 ![image](https://github.com/user-attachments/assets/135d9132-3d3b-4af3-85aa-c0f6ca2bc273)
 
-### Explanation
+## Explanation:
 
 1. **Covariance**:
    - Shows how two variables change together.
